@@ -1,0 +1,63 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "origin": "تهران",
+      "destination": "مشهد",
+      "departureDate": "2026-03-10",
+      "departureTime": "08:30",
+      "arrivalTime": "10:00",
+      "airlineId": 1,
+      "price": 1800000,
+      "capacity": 120
+    },
+    {
+      "id": 2,
+      "origin": "تهران",
+      "destination": "شیراز",
+      "departureDate": "2026-03-10",
+      "departureTime": "14:00",
+      "arrivalTime": "15:30",
+      "airlineId": 2,
+      "price": 1500000,
+      "capacity": 90
+    },
+    {
+      "id": 3,
+      "origin": "مشهد",
+      "destination": "تهران",
+      "departureDate": "2026-03-15",
+      "departureTime": "19:00",
+      "arrivalTime": "20:30",
+      "airlineId": 1,
+      "price": 1700000,
+      "capacity": 100
+    }
+  ],
+
+  "airlines": [
+    {
+      "id": 1,
+      "name": "ایران ایر",
+      "logo": "/images/iranair.png"
+    },
+    {
+      "id": 2,
+      "name": "ماهان",
+      "logo": "/images/mahan.png"
+    }
+  ],
+
+  "faqs": [
+    {
+      "id": 1,
+      "question": "چگونه بلیط هواپیما بخریم؟",
+      "answer": "مبدا، مقصد، تاریخ و تعداد مسافر را وارد کنید و پرواز مورد نظر را انتخاب کنید."
+    },
+    {
+      "id": 2,
+      "question": "آیا امکان استرداد بلیط وجود دارد؟",
+      "answer": "بله، طبق قوانین ایرلاین امکان استرداد وجود دارد."
+    }
+  ]
+}
