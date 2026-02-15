@@ -1,4 +1,3 @@
-// pages/api/cities.js
 import db from "./db.json"
 
 export default function handler(req, res) {
