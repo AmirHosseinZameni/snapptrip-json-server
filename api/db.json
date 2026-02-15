@@ -95,4 +95,997 @@
       "answer": "بلیط چارتر معمولاً قیمت کمتری دارد اما شرایط کنسلی سخت‌تری دارد. بلیط سیستمی قیمت بالاتر اما انعطاف بیشتری دارد."
     }
   ]
+  {
+  "cities": [
+    {
+      "id": 1,
+      "name": "تهران",
+      "province": "تهران",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 101,
+          "name": "فرودگاه بین‌المللی امام خمینی",
+          "code": "IKA",
+          "type": "بین‌المللی",
+          "cityId": 1
+        },
+        {
+          "id": 102,
+          "name": "فرودگاه مهرآباد",
+          "code": "THR",
+          "type": "داخلی",
+          "cityId": 1
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 2,
+      "name": "مشهد",
+      "province": "خراسان رضوی",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 201,
+          "name": "فرودگاه بین‌المللی شهید هاشمی‌نژاد",
+          "code": "MHD",
+          "type": "بین‌المللی",
+          "cityId": 2
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 3,
+      "name": "شیراز",
+      "province": "فارس",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 301,
+          "name": "فرودگاه بین‌المللی شهید دستغیب",
+          "code": "SYZ",
+          "type": "بین‌المللی",
+          "cityId": 3
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 4,
+      "name": "اصفهان",
+      "province": "اصفهان",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 401,
+          "name": "فرودگاه بین‌المللی شهید بهشتی",
+          "code": "IFN",
+          "type": "بین‌المللی",
+          "cityId": 4
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 7,
+      "name": "تبریز",
+      "province": "آذربایجان شرقی",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 701,
+          "name": "فرودگاه بین‌المللی شهید مدنی",
+          "code": "TBZ",
+          "type": "بین‌المللی",
+          "cityId": 7
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 8,
+      "name": "اهواز",
+      "province": "خوزستان",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 801,
+          "name": "فرودگاه بین‌المللی اهواز",
+          "code": "AWZ",
+          "type": "بین‌المللی",
+          "cityId": 8
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 9,
+      "name": "کرمانشاه",
+      "province": "کرمانشاه",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 901,
+          "name": "فرودگاه بین‌المللی شهید اشرفی اصفهانی",
+          "code": "KSH",
+          "type": "بین‌المللی",
+          "cityId": 9
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 10,
+      "name": "رشت",
+      "province": "گیلان",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 1001,
+          "name": "فرودگاه بین‌المللی سردار جنگل",
+          "code": "RAS",
+          "type": "بین‌المللی",
+          "cityId": 10
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 11,
+      "name": "یزد",
+      "province": "یزد",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 1101,
+          "name": "فرودگاه بین‌المللی شهید صدوقی",
+          "code": "AZD",
+          "type": "داخلی",
+          "cityId": 11
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 12,
+      "name": "کرمان",
+      "province": "کرمان",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 1201,
+          "name": "فرودگاه بین‌المللی کرمان",
+          "code": "KER",
+          "type": "داخلی",
+          "cityId": 12
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 13,
+      "name": "بندرعباس",
+      "province": "هرمزگان",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 1301,
+          "name": "فرودگاه بین‌المللی بندرعباس",
+          "code": "BND",
+          "type": "بین‌المللی",
+          "cityId": 13
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 14,
+      "name": "زاهدان",
+      "province": "سیستان و بلوچستان",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 1401,
+          "name": "فرودگاه بین‌المللی زاهدان",
+          "code": "ZAH",
+          "type": "داخلی",
+          "cityId": 14
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 15,
+      "name": "ارومیه",
+      "province": "آذربایجان غربی",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 1501,
+          "name": "فرودگاه بین‌المللی ارومیه",
+          "code": "OMH",
+          "type": "بین‌المللی",
+          "cityId": 15
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 16,
+      "name": "ساری",
+      "province": "مازندران",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 1601,
+          "name": "فرودگاه دشت ناز",
+          "code": "SRY",
+          "type": "داخلی",
+          "cityId": 16
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 17,
+      "name": "قشم",
+      "province": "هرمزگان",
+      "country": "ایران",
+      "airports": [
+        {
+          "id": 1701,
+          "name": "فرودگاه بین‌المللی قشم",
+          "code": "GSM",
+          "type": "داخلی",
+          "cityId": 17
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 5,
+      "name": "استانبول",
+      "province": "استانبول",
+      "country": "ترکیه",
+      "airports": [
+        {
+          "id": 501,
+          "name": "فرودگاه استانبول",
+          "code": "IST",
+          "type": "بین‌المللی",
+          "cityId": 5
+        },
+        {
+          "id": 502,
+          "name": "فرودگاه صبیحه گوکچن",
+          "code": "SAW",
+          "type": "بین‌المللی",
+          "cityId": 5
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 18,
+      "name": "پاریس",
+      "province": "ایل-دو-فرانس",
+      "country": "فرانسه",
+      "airports": [
+        {
+          "id": 1801,
+          "name": "فرودگاه شارل دوگل",
+          "code": "CDG",
+          "type": "بین‌المللی",
+          "cityId": 18
+        },
+        {
+          "id": 1802,
+          "name": "فرودگاه اورلی",
+          "code": "ORY",
+          "type": "بین‌المللی",
+          "cityId": 18
+        },
+        {
+          "id": 1803,
+          "name": "فرودگاه بووه",
+          "code": "BVA",
+          "type": "بین‌المللی",
+          "cityId": 18
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 19,
+      "name": "لندن",
+      "province": "انگلستان",
+      "country": "بریتانیا",
+      "airports": [
+        {
+          "id": 601,
+          "name": "فرودگاه هیترو",
+          "code": "LHR",
+          "type": "بین‌المللی",
+          "cityId": 19
+        },
+        {
+          "id": 602,
+          "name": "فرودگاه گتویک",
+          "code": "LGW",
+          "type": "بین‌المللی",
+          "cityId": 19
+        },
+        {
+          "id": 603,
+          "name": "فرودگاه استانستد",
+          "code": "STN",
+          "type": "بین‌المللی",
+          "cityId": 19
+        },
+        {
+          "id": 1904,
+          "name": "فرودگاه لوتن",
+          "code": "LTN",
+          "type": "بین‌المللی",
+          "cityId": 19
+        },
+        {
+          "id": 1905,
+          "name": "فرودگاه سیتی لندن",
+          "code": "LCY",
+          "type": "بین‌المللی",
+          "cityId": 19
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 20,
+      "name": "مسکو",
+      "province": "مسکو",
+      "country": "روسیه",
+      "airports": [
+        {
+          "id": 2001,
+          "name": "فرودگاه بین‌المللی شرمتیوو",
+          "code": "SVO",
+          "type": "بین‌المللی",
+          "cityId": 20
+        },
+        {
+          "id": 2002,
+          "name": "فرودگاه بین‌المللی دوموددوو",
+          "code": "DME",
+          "type": "بین‌المللی",
+          "cityId": 20
+        },
+        {
+          "id": 2003,
+          "name": "فرودگاه بین‌المللی ونوکووا",
+          "code": "VKO",
+          "type": "بین‌المللی",
+          "cityId": 20
+        },
+        {
+          "id": 2004,
+          "name": "فرودگاه ژوکوفسکی",
+          "code": "ZIA",
+          "type": "بین‌المللی",
+          "cityId": 20
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 21,
+      "name": "لس آنجلس",
+      "province": "کالیفرنیا",
+      "country": "آمریکا",
+      "airports": [
+        {
+          "id": 2101,
+          "name": "فرودگاه بین‌المللی لس آنجلس",
+          "code": "LAX",
+          "type": "بین‌المللی",
+          "cityId": 21
+        },
+        {
+          "id": 2102,
+          "name": "فرودگاه هالیوود بربنک",
+          "code": "BUR",
+          "type": "داخلی",
+          "cityId": 21
+        },
+        {
+          "id": 2103,
+          "name": "فرودگاه لانگ بیچ",
+          "code": "LGB",
+          "type": "داخلی",
+          "cityId": 21
+        },
+        {
+          "id": 2104,
+          "name": "فرودگاه جان وین",
+          "code": "SNA",
+          "type": "داخلی",
+          "cityId": 21
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 22,
+      "name": "تورنتو",
+      "province": "انتاریو",
+      "country": "کانادا",
+      "airports": [
+        {
+          "id": 2201,
+          "name": "فرودگاه بین‌المللی پیرسون تورنتو",
+          "code": "YYZ",
+          "type": "بین‌المللی",
+          "cityId": 22
+        },
+        {
+          "id": 2202,
+          "name": "فرودگاه شهری تورنتو بیلی بیشاپ",
+          "code": "YTZ",
+          "type": "داخلی",
+          "cityId": 22
+        },
+        {
+          "id": 2203,
+          "name": "فرودگاه بین‌المللی همیلتون",
+          "code": "YHM",
+          "type": "بین‌المللی",
+          "cityId": 22
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 23,
+      "name": "ونکوور",
+      "province": "بریتیش کلمبیا",
+      "country": "کانادا",
+      "airports": [
+        {
+          "id": 2301,
+          "name": "فرودگاه بین‌المللی ونکوور",
+          "code": "YVR",
+          "type": "بین‌المللی",
+          "cityId": 23
+        },
+        {
+          "id": 2302,
+          "name": "فرودگاه مرزی آبوتسفورد",
+          "code": "YXX",
+          "type": "بین‌المللی",
+          "cityId": 23
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 24,
+      "name": "دبی",
+      "province": "دبی",
+      "country": "امارات متحده عربی",
+      "airports": [
+        {
+          "id": 2401,
+          "name": "فرودگاه بین‌المللی دبی",
+          "code": "DXB",
+          "type": "بین‌المللی",
+          "cityId": 24
+        },
+        {
+          "id": 2402,
+          "name": "فرودگاه بین‌المللی آل مکتوم",
+          "code": "DWC",
+          "type": "بین‌المللی",
+          "cityId": 24
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 25,
+      "name": "آنکارا",
+      "province": "آنکارا",
+      "country": "ترکیه",
+      "airports": [
+        {
+          "id": 2501,
+          "name": "فرودگاه بین‌المللی آنکارا",
+          "code": "ESB",
+          "type": "بین‌المللی",
+          "cityId": 25
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 26,
+      "name": "ازمیر",
+      "province": "ازمیر",
+      "country": "ترکیه",
+      "airports": [
+        {
+          "id": 2601,
+          "name": "فرودگاه عدنان مندرس",
+          "code": "ADB",
+          "type": "بین‌المللی",
+          "cityId": 26
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 27,
+      "name": "آنتالیا",
+      "province": "آنتالیا",
+      "country": "ترکیه",
+      "airports": [
+        {
+          "id": 2701,
+          "name": "فرودگاه آنتالیا",
+          "code": "AYT",
+          "type": "بین‌المللی",
+          "cityId": 27
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 28,
+      "name": "فرانکفورت",
+      "province": "هسن",
+      "country": "آلمان",
+      "airports": [
+        {
+          "id": 2801,
+          "name": "فرودگاه فرانکفورت",
+          "code": "FRA",
+          "type": "بین‌المللی",
+          "cityId": 28
+        },
+        {
+          "id": 2802,
+          "name": "فرودگاه فرانکفورت هان",
+          "code": "HHN",
+          "type": "بین‌المللی",
+          "cityId": 28
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 29,
+      "name": "مونیخ",
+      "province": "بایرن",
+      "country": "آلمان",
+      "airports": [
+        {
+          "id": 2901,
+          "name": "فرودگاه مونیخ",
+          "code": "MUC",
+          "type": "بین‌المللی",
+          "cityId": 29
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 30,
+      "name": "رم",
+      "province": "لاتزیو",
+      "country": "ایتالیا",
+      "airports": [
+        {
+          "id": 3001,
+          "name": "فرودگاه لئوناردو داوینچی-فیومیچینو",
+          "code": "FCO",
+          "type": "بین‌المللی",
+          "cityId": 30
+        },
+        {
+          "id": 3002,
+          "name": "فرودگاه چمپینو",
+          "code": "CIA",
+          "type": "بین‌المللی",
+          "cityId": 30
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 31,
+      "name": "میلان",
+      "province": "لمباردی",
+      "country": "ایتالیا",
+      "airports": [
+        {
+          "id": 3101,
+          "name": "فرودگاه میلانو مالپنزا",
+          "code": "MXP",
+          "type": "بین‌المللی",
+          "cityId": 31
+        },
+        {
+          "id": 3102,
+          "name": "فرودگاه لیناته",
+          "code": "LIN",
+          "type": "بین‌المللی",
+          "cityId": 31
+        },
+        {
+          "id": 3103,
+          "name": "فرودگاه اریو ال سریو",
+          "code": "BGY",
+          "type": "بین‌المللی",
+          "cityId": 31
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 32,
+      "name": "بارسلونا",
+      "province": "کاتالونیا",
+      "country": "اسپانیا",
+      "airports": [
+        {
+          "id": 3201,
+          "name": "فرودگاه بارسلونا-ال پرات",
+          "code": "BCN",
+          "type": "بین‌المللی",
+          "cityId": 32
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 33,
+      "name": "مادرید",
+      "province": "مادرید",
+      "country": "اسپانیا",
+      "airports": [
+        {
+          "id": 3301,
+          "name": "فرودگاه مادرید-باراخاس",
+          "code": "MAD",
+          "type": "بین‌المللی",
+          "cityId": 33
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 34,
+      "name": "آمستردام",
+      "province": "هلند شمالی",
+      "country": "هلند",
+      "airports": [
+        {
+          "id": 3401,
+          "name": "فرودگاه اسخیپول آمستردام",
+          "code": "AMS",
+          "type": "بین‌المللی",
+          "cityId": 34
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 35,
+      "name": "بروکسل",
+      "province": "بروکسل",
+      "country": "بلژیک",
+      "airports": [
+        {
+          "id": 3501,
+          "name": "فرودگاه بروکسل",
+          "code": "BRU",
+          "type": "بین‌المللی",
+          "cityId": 35
+        },
+        {
+          "id": 3502,
+          "name": "فرودگاه بروکسل جنوب شرلوا",
+          "code": "CRL",
+          "type": "بین‌المللی",
+          "cityId": 35
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 36,
+      "name": "وین",
+      "province": "وین",
+      "country": "اتریش",
+      "airports": [
+        {
+          "id": 3601,
+          "name": "فرودگاه بین‌المللی وین",
+          "code": "VIE",
+          "type": "بین‌المللی",
+          "cityId": 36
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 37,
+      "name": "ژنو",
+      "province": "ژنو",
+      "country": "سوئیس",
+      "airports": [
+        {
+          "id": 3701,
+          "name": "فرودگاه بین‌المللی ژنو",
+          "code": "GVA",
+          "type": "بین‌المللی",
+          "cityId": 37
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 38,
+      "name": "زوریخ",
+      "province": "زوریخ",
+      "country": "سوئیس",
+      "airports": [
+        {
+          "id": 3801,
+          "name": "فرودگاه زوریخ",
+          "code": "ZRH",
+          "type": "بین‌المللی",
+          "cityId": 38
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 39,
+      "name": "کپنهاگ",
+      "province": "شیلند",
+      "country": "دانمارک",
+      "airports": [
+        {
+          "id": 3901,
+          "name": "فرودگاه کپنهاگ",
+          "code": "CPH",
+          "type": "بین‌المللی",
+          "cityId": 39
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 40,
+      "name": "استکهلم",
+      "province": "استکهلم",
+      "country": "سوئد",
+      "airports": [
+        {
+          "id": 4001,
+          "name": "فرودگاه استکهلم-آرلاندا",
+          "code": "ARN",
+          "type": "بین‌المللی",
+          "cityId": 40
+        },
+        {
+          "id": 4002,
+          "name": "فرودگاه بروما",
+          "code": "BMA",
+          "type": "داخلی",
+          "cityId": 40
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 41,
+      "name": "اسلو",
+      "province": "اسلو",
+      "country": "نروژ",
+      "airports": [
+        {
+          "id": 4101,
+          "name": "فرودگاه اسلو گاردرموئن",
+          "code": "OSL",
+          "type": "بین‌المللی",
+          "cityId": 41
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 42,
+      "name": "هلسینکی",
+      "province": "اوسیما",
+      "country": "فنلاند",
+      "airports": [
+        {
+          "id": 4201,
+          "name": "فرودگاه هلسینکی",
+          "code": "HEL",
+          "type": "بین‌المللی",
+          "cityId": 42
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 43,
+      "name": "دوحه",
+      "province": "دوحه",
+      "country": "قطر",
+      "airports": [
+        {
+          "id": 4301,
+          "name": "فرودگاه بین‌المللی حمد",
+          "code": "DOH",
+          "type": "بین‌المللی",
+          "cityId": 43
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 44,
+      "name": "ابوظبی",
+      "province": "ابوظبی",
+      "country": "امارات متحده عربی",
+      "airports": [
+        {
+          "id": 4401,
+          "name": "فرودگاه بین‌المللی ابوظبی",
+          "code": "AUH",
+          "type": "بین‌المللی",
+          "cityId": 44
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 45,
+      "name": "کوالالامپور",
+      "province": "کوالالامپور",
+      "country": "مالزی",
+      "airports": [
+        {
+          "id": 4501,
+          "name": "فرودگاه بین‌المللی کوالالامپور",
+          "code": "KUL",
+          "type": "بین‌المللی",
+          "cityId": 45
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 46,
+      "name": "بانکوک",
+      "province": "بانکوک",
+      "country": "تایلند",
+      "airports": [
+        {
+          "id": 4601,
+          "name": "فرودگاه بین‌المللی سووارنابومی",
+          "code": "BKK",
+          "type": "بین‌المللی",
+          "cityId": 46
+        },
+        {
+          "id": 4602,
+          "name": "فرودگاه دون موئانگ",
+          "code": "DMK",
+          "type": "بین‌المللی",
+          "cityId": 46
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 47,
+      "name": "سنگاپور",
+      "province": "سنگاپور",
+      "country": "سنگاپور",
+      "airports": [
+        {
+          "id": 4701,
+          "name": "فرودگاه چانگی سنگاپور",
+          "code": "SIN",
+          "type": "بین‌المللی",
+          "cityId": 47
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 48,
+      "name": "توکیو",
+      "province": "کانتو",
+      "country": "ژاپن",
+      "airports": [
+        {
+          "id": 4801,
+          "name": "فرودگاه ناریتا",
+          "code": "NRT",
+          "type": "بین‌المللی",
+          "cityId": 48
+        },
+        {
+          "id": 4802,
+          "name": "فرودگاه هانهدا",
+          "code": "HND",
+          "type": "بین‌المللی",
+          "cityId": 48
+        }
+      ],
+      "popular": true
+    },
+    {
+      "id": 49,
+      "name": "پکن",
+      "province": "پکن",
+      "country": "چین",
+      "airports": [
+        {
+          "id": 4901,
+          "name": "فرودگاه بین‌المللی پکن",
+          "code": "PEK",
+          "type": "بین‌المللی",
+          "cityId": 49
+        },
+        {
+          "id": 4902,
+          "name": "فرودگاه بین‌المللی داکسینگ",
+          "code": "PKX",
+          "type": "بین‌المللی",
+          "cityId": 49
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 50,
+      "name": "دهلی",
+      "province": "دهلی",
+      "country": "هند",
+      "airports": [
+        {
+          "id": 5001,
+          "name": "فرودگاه بین‌المللی ایندیرا گاندی",
+          "code": "DEL",
+          "type": "بین‌المللی",
+          "cityId": 50
+        }
+      ],
+      "popular": false
+    },
+    {
+      "id": 51,
+      "name": "بمبئی",
+      "province": "مهاراشترا",
+      "country": "هند",
+      "airports": [
+        {
+          "id": 5101,
+          "name": "فرودگاه بین‌المللی چاتراپاتی شیواجی",
+          "code": "BOM",
+          "type": "بین‌المللی",
+          "cityId": 51
+        }
+      ],
+      "popular": false
+    }
+  ]
+}
 }
