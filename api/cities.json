@@ -1,0 +1,49 @@
+// pages/api/search-locations.js
+import db from "./db.json"
+
+export default function handler(req, res) {
+  res.setHeader("Access-Control-Allow-Origin", "*")
+  res.setHeader("Access-Control-Allow-Methods", "GET")
+
+  if (req.method === "GET") {
+    const { query } = req.query
+    
+    if (!query) {
+      return res.status(200).json([])
+    }
+
+    const results = []
+
+    db.cities.forEach(city => {
+      if (city.name.includes(query) || city.country.includes(query)) {
+        
+        results.push({
+          id: `city-${city.id}`,
+          mainTitle: city.name,
+          secondaryTitle: city.country,
+          type: "city-group",
+          displayText: `همه فرودگاه‌های ${city.name}`,
+          fullText: `${city.name}، ${city.country}`,
+          airportCount: city.airports.length,
+          airports: city.airports // برای استفاده بعدی
+        })
+
+        city.airports.forEach(airport => {
+          results.push({
+            id: `airport-${airport.id}`,
+            mainTitle: airport.name,
+            secondaryTitle: `${city.name}، ${city.country}`,
+            type: "airport",
+            code: airport.code,
+            displayText: airport.name,
+            fullText: `${airport.name} (${airport.code})، ${city.name}، ${city.country}`,
+            cityId: city.id,
+            airportId: airport.id
+          })
+        })
+      }
+    })
+
+    res.status(200).json(results)
+  }
+}
