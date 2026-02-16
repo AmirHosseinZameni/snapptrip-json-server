@@ -55,7 +55,11 @@ export default function handler(req, res) {
       cities = cities.filter(c => 
         c.name.includes(search) || 
         c.province.includes(search) || 
-        c.country.includes(search)
+        c.country.includes(search) ||
+        c.airports.some(airport => 
+          airport.name.includes(searchQuery) || 
+          airport.code.includes(searchQuery.toUpperCase())
+        )
       )
     }
 
