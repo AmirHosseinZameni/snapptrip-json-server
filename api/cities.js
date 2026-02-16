@@ -12,7 +12,7 @@ export default function handler(req, res) {
   }
 
   try {
-    const { id, name, province, country, popular, search } = req.query
+    const { id, name, province, country, popular, search, code } = req.query
     let cities = db.cities
 
     // فیلتر بر اساس id (دریافت یک شهر خاص)
@@ -50,12 +50,23 @@ export default function handler(req, res) {
       cities = cities.filter(c => c.popular === true)
     }
 
-    // جستجوی عمومی (هم در نام شهر، هم استان، هم کشور)
+    // فیلتر بر اساس کد فرودگاه
+    if (code) {
+      const codeQuery = code.toUpperCase()
+      cities = cities.filter(city => 
+        city.airports.some(airport => 
+          airport.code.toUpperCase().includes(codeQuery)
+        )
+      )
+    }
+
+    // جستجوی عمومی (اصلاح شده)
     if (search) {
+      const searchQuery = search  // ✅ تعریف متغیر searchQuery
       cities = cities.filter(c => 
-        c.name.includes(search) || 
-        c.province.includes(search) || 
-        c.country.includes(search) ||
+        c.name.includes(searchQuery) || 
+        c.province.includes(searchQuery) || 
+        c.country.includes(searchQuery) ||
         c.airports.some(airport => 
           airport.name.includes(searchQuery) || 
           airport.code.includes(searchQuery.toUpperCase())
